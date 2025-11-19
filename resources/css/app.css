@@ -1,0 +1,174 @@
+@import 'tailwindcss';
+@import '../../vendor/livewire/flux/dist/flux.css';
+@custom-variant dark (&:where(.dark, .dark *));
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@font-face {
+    font-family: 'DarkerGrotesque';
+    src: url('../fonts/DarkerGrotesque-VariableFont_wght.ttf');
+    font-weight: 100 900;
+    font-style: normal;
+}
+
+@theme {
+    --font-sans: DarkerGrotesque;
+    --font-serif: DarkerGrotesque;
+    --font-mono: DarkerGrotesque;
+    --color-neutral-200: oklch(0.9249 0 0);
+    --color-granite-gray: #666666;
+    --color-chinese-silver: #cccccc;
+}
+
+@utility container {
+    margin-inline: auto;
+    padding-inline: 2rem;
+}
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 10%;
+
+    --dark-bg: 0 0% 4%;
+    --dark-bg-secondary: 0 0% 8%;
+    --light-bg: 0 0% 98%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 10%;
+    --card-dark: 0 0% 20%;
+    --card-dark-foreground: 0 0% 98%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 10%;
+
+    --primary: 210 80% 50%;
+    --primary-foreground: 0 0% 100%;
+    --primary-dark: 210 70% 45%;
+
+    --secondary: 0 0% 20%;
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 0 0% 96%;
+    --muted-foreground: 0 0% 45%;
+    --muted-dark: 0 0% 15%;
+    --muted-dark-foreground: 0 0% 70%;
+
+    --accent: 210 80% 50%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 0 0% 90%;
+    --border-dark: 0 0% 20%;
+    --input: 0 0% 90%;
+    --ring: 210 80% 50%;
+
+    --radius: 0.5rem;
+
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+@layer base {
+
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer utilities {
+  .section-dark {
+    @apply bg-[hsl(var(--dark-bg))] text-white;
+  }
+
+  .section-light {
+    @apply bg-neutral-200 text-[hsl(var(--foreground))];
+  }
+
+  .card-dark {
+    @apply bg-[hsl(var(--card-dark))] text-[hsl(var(--card-dark-foreground))];
+  }
+
+}
+
+.flip-card {
+  width: 100%;
+  height: 450px;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  color: white;
+}
+
+/* Style the back side */
+.flip-card-back {
+  color: white;
+  transform: rotateY(180deg);
+}
