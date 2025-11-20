@@ -56,7 +56,7 @@
 
                 </div>
                 <div class="flex self-end-safe w-full justify-center">
-                    <x-btn-atendimento class="mb-12" />
+                    <livewire:contact-form :style="'mb-12'" />
                 </div>
             </div>
     </section>

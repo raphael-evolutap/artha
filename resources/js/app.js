@@ -1,1 +1,1 @@
-import.meta.glob(["../images/**", "../fonts/**"]);
+import.meta.glob(["../images/**", "../fonts/**", "../svg/**"]);

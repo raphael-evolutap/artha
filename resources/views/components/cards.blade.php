@@ -109,7 +109,7 @@ e mais economia para sua operação.
             @endforeach
         </div>
         <div class="flex justify-center mt-12">
-            <x-btn-atendimento />
+            <livewire:contact-form />
         </div>
     </div>
 </section>

@@ -7,7 +7,7 @@
             </div>
 
             <div class="flex justify-end">
-                <x-btn-atendimento />
+                <livewire:contact-form />
             </div>
         </div>
 
