@@ -9,14 +9,15 @@
         </div>
     </flux:modal.trigger>
     @once
-        <flux:modal :closable="false" name="atendimento" @class([
+        <flux:modal @close="resetForm" :closable="false" name="atendimento" @class([
             '[&::backdrop]:bg-white/70!  max-w-6xl!',
             'w-4xl' => !$mail_sent,
         ])>
             @if ($mail_sent)
                 <div class="p-12 text-center ">
                     <flux:modal.close name="atendimento">
-                        <div><img class="w-6 h-6" src="{{ Vite::asset('resources/svg/close-black.svg') }}" alt="Fechar">
+                        <div>
+                            <img class="w-6 h-6" src="{{ Vite::asset('resources/svg/close-black.svg') }}" alt="Fechar">
                         </div>
                     </flux:modal.close>
                     <h3 class="text-5xl font-bold mb-4 tracking-wider">Tudo certo!</h3>
@@ -95,10 +96,12 @@
                                 <label class="block text-base font-normal" for="email">Seu melhor email</label>
                                 <input wire:model="email" class="block border-b border-black outline-none w-full" />
                             </div>
-                            <button type="submit"
-                                class="w-full text-xl font-semibold bg-black text-white py-4 px-5 rounded-full mt-4">Solicitar
+                            <button wire:loading.attr="disabled" type="submit"
+                                class="w-full text-xl font-semibold bg-black text-white py-4 px-5 rounded-full mt-4 cursor-pointer">Solicitar
                                 atendimento
-                                personalizado</button>
+                                personalizado
+                                <flux:icon.loading wire:loading />
+                            </button>
                         </form>
                     </div>
                 </div>
