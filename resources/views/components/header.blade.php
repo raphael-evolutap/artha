@@ -1,7 +1,7 @@
     <section class="relative overflow-hidden pb-24 md:pb-32 lg:pb-44">
 
         <div class="absolute inset-0 z-0 bg-fixed"
-            style="background-image: url({{ Vite::asset('resources/images/BG_1X.png') }});background-repeat: no-repeat; background-position: center;">
+            style="background-image: url({{ Vite::asset('resources/images/BG_1X.png') }}); background-position: center center;background-size: cover; background-repeat: no-repeat;">
             <div class="absolute inset-0 bg-black/70">
             </div>
         </div>
