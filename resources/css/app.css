@@ -172,3 +172,9 @@
   color: white;
   transform: rotateY(180deg);
 }
+
+.unfix-ios-bg {
+    @supports (-webkit-touch-callout: none) {
+        background-attachment: initial !important;
+    }
+}

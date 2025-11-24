@@ -51,10 +51,9 @@ custos de transporte.',
     <div class="container max-w-6xl  top-[-42px] relative z-10 px-6 md:px-12 lg:px-20">
         <h2 class="text-4xl md:text-5xl text-black font-semibold mb-6">Serviços</h2>
     </div>
-    <div class="absolute inset-0 z-0 bg-fixed"
+    <div class="absolute inset-0 z-0 bg-fixed unfix-ios-bg"
         style="background-image: url({{ Vite::asset('resources/images/BG_PARALAX.png') }});background-repeat: no-repeat; background-position: center center;background-size: cover;">
-        <div class="absolute inset-0">
-        </div>
+
     </div>
     <div class="container max-w-6xl relative z-10 px-6 md:px-12 lg:px-20">
 

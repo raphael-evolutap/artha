@@ -44,17 +44,18 @@ e mais economia para sua operação.
 ',
         ],
     ];
-
-    function getCardClass($index)
-    {
-        if ($index === 0) {
-            return 'col-span-full row-span-full lg:col-span-2 lg:row-span-3';
-        } elseif ($index === 1) {
-            return 'col-span-full lg:col-span-3 lg:row-span-3 lg:col-start-3';
-        } elseif ($index === 2) {
-            return 'col-span-full lg:col-span-3 lg:row-span-3 lg:row-start-4';
-        } elseif ($index === 3) {
-            return 'col-span-full lg:col-span-2 lg:row-span-3 lg:col-start-4 lg:row-start-4';
+    if (!function_exists('getCardClass')) {
+        function getCardClass($index)
+        {
+            if ($index === 0) {
+                return 'col-span-full row-span-full lg:col-span-2 lg:row-span-3';
+            } elseif ($index === 1) {
+                return 'col-span-full lg:col-span-3 lg:row-span-3 lg:col-start-3';
+            } elseif ($index === 2) {
+                return 'col-span-full lg:col-span-3 lg:row-span-3 lg:row-start-4';
+            } elseif ($index === 3) {
+                return 'col-span-full lg:col-span-2 lg:row-span-3 lg:col-start-4 lg:row-start-4';
+            }
         }
     }
 @endphp

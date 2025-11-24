@@ -18,9 +18,8 @@
                         Endereço
                     </p>
                     <p class="text-chinese-silver text-base">
-                        Lorem ipsum dolor sit amet,<br />
-                        consectetur adipiscing elit, 398 <br />
-                        CEP 00989980 <br />
+                        Av. João XXIII, 350 - 7º Andar - Sala 77 - Socorro<br />
+                        CEP 08780-830 <br />
                         Mogi das Cruzes - SP
                     </p>
                 </div>
