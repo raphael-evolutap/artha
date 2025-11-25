@@ -11,7 +11,7 @@ e voos, até o transporte final.',
         ],
         [
             'icon' => 'ativo-02',
-            'title' => 'Inteligência<br/>
+            'title' => 'Inteligência
 e Automação<br/>
 do Início ao Fim',
             'description' => 'Temos acesso direto a informações online
@@ -40,7 +40,7 @@ maiores transportadoras, agentes
 e autoridades nos portos mais
 movimentados do mundo. O
 resultado? Menos tempo de espera
-e mais economia para sua operação.
+e mais economia na sua operação.
 ',
         ],
     ];
@@ -71,7 +71,7 @@ e mais economia para sua operação.
         <div class="grid grid-cols-1 grid-rows-4 md:grid-cols-5 md:grid-rows-6 gap-6 lg:gap-8">
             @foreach ($cards as $card)
                 <div
-                    class="flip-card bg-[hsl(var(--dark-bg-secondary))] p-8 md:p-12 rounded-4xl  transition-all duration-300 group cursor-pointer w-full @php echo getCardClass($loop->index); @endphp">
+                    class="flip-card bg-[hsl(var(--dark-bg-secondary))] p-8 md:p-10 rounded-4xl  transition-all duration-300 group cursor-pointer w-full @php echo getCardClass($loop->index); @endphp">
                     <div class="flip-card-inner">
                         <div class="flip-card-front flex flex-col items-start justify-between mb-6 tracking-widest">
                             <div>
