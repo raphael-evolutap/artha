@@ -2,18 +2,17 @@
 
         <div class="fixed inset-0 -z-40 top-0 left-0 w-dvw"
             style="background-image: url({{ Vite::asset('resources/images/BG_1X.png') }}); background-position: center center;background-size: cover; background-repeat: no-repeat;">
-            <div class="absolute inset-0 bg-black/70">
-            </div>
+
         </div>
         <header class="relative bg-transparent">
-            <div class="container max-w-lvw px-6 md:px-12 lg:px-28">
-                <div class="flex justify-center md:justify-between items-center">
-                    <div class="my-14 md:my-0">
+            <div class="container max-w-lvw px-6 md:px-12">
+                <div class="flex justify-center md:justify-between">
+                    <div class="my-14  mt-20">
                         <a href="{{ route('home') }}">
-                            <img src="{{ Vite::asset('resources/images/logo.svg') }}" alt="" class="w-70">
+                            <img src="{{ Vite::asset('resources/images/logo.svg') }}" alt="" class="w-64">
                         </a>
                     </div>
-                    <div class="md:flex flex-col uppercase text-white gap-y-2 font-light text-lg mt-20 hidden">
+                    <div class="md:flex flex-col uppercase text-white gap-y-6 font-light text-lg mt-30 hidden">
                         <a href="#about">Nosso Propósito</a>
                         <a href="#quem-somos">Quem Somos</a>
                         <a href="#o-jeito-artha-de-fazer">O jeito Artha</a>
@@ -24,15 +23,15 @@
             </div>
         </header>
 
-        <div class="container max-w-7xl relative z-10 px-6 md:px-12 lg:px-20">
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+        <div class="container max-w-7xl relative z-10 px-6 md:px-12">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
                 <div class="flex flex-col w-full">
                     <div class="mb-8">
                         <h1
-                            class="leading-14 font-semibold text-4xl md:text-6xl lg:text-7xl text-white tracking-widest relative">
-                            <img class="w-14 h-14 absolute right-0 -top-10 hidden lg:block"
-                                src="{{ Vite::asset('resources/images/ativo-21.svg') }}" alt="">
-                            <span class="font-normal relative">
+                            class="leading-14 font-semibold text-4xl md:text-5xl lg:text-6xl text-white tracking-widest relative">
+                            <span class="font-normal relative text-stone-300">
+                                <img class="w-14 h-14 absolute right-0 -top-10 hidden lg:block"
+                                    src="{{ Vite::asset('resources/images/ativo-21.svg') }}" alt="">
                                 Simplificamos
                                 <br />
                                 a logística global

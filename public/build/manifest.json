@@ -1,0 +1,121 @@
+{
+  "resources/css/app.css": {
+    "file": "assets/app-oaszr_4J.css",
+    "src": "resources/css/app.css",
+    "isEntry": true,
+    "name": "app",
+    "names": [
+      "app.css"
+    ]
+  },
+  "resources/fonts/DarkerGrotesque-VariableFont_wght.ttf": {
+    "file": "assets/DarkerGrotesque-VariableFont_wght-CyhyVP8r.ttf",
+    "src": "resources/fonts/DarkerGrotesque-VariableFont_wght.ttf"
+  },
+  "resources/images/BG_1X.png": {
+    "file": "assets/BG_1X-CCpec1xu.png",
+    "src": "resources/images/BG_1X.png"
+  },
+  "resources/images/BG_PARALAX.png": {
+    "file": "assets/BG_PARALAX-Bi7VdejI.png",
+    "src": "resources/images/BG_PARALAX.png"
+  },
+  "resources/images/ativo-12.svg": {
+    "file": "assets/ativo-12-C3yr6Pxl.svg",
+    "src": "resources/images/ativo-12.svg"
+  },
+  "resources/images/ativo-17.svg": {
+    "file": "assets/ativo-17-CzGurj2b.svg",
+    "src": "resources/images/ativo-17.svg"
+  },
+  "resources/images/ativo-21.svg": {
+    "file": "assets/ativo-21-DdYxAXxU.svg",
+    "src": "resources/images/ativo-21.svg"
+  },
+  "resources/images/boat.png": {
+    "file": "assets/boat-D82_7u4V.png",
+    "src": "resources/images/boat.png"
+  },
+  "resources/images/logo.svg": {
+    "file": "assets/logo-DoZrL4EL.svg",
+    "src": "resources/images/logo.svg"
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-l0sNRNKZ.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true
+  },
+  "resources/svg/Ativo 6.svg": {
+    "file": "assets/Ativo 6-S3sW1ZGJ.svg",
+    "src": "resources/svg/Ativo 6.svg"
+  },
+  "resources/svg/arrow-right-white.svg": {
+    "file": "assets/arrow-right-white-Dtz_lKQM.svg",
+    "src": "resources/svg/arrow-right-white.svg"
+  },
+  "resources/svg/arrow-right.svg": {
+    "file": "assets/arrow-right-Da-eA-aR.svg",
+    "src": "resources/svg/arrow-right.svg"
+  },
+  "resources/svg/ativo-01.svg": {
+    "file": "assets/ativo-01-D_wh7sV5.svg",
+    "src": "resources/svg/ativo-01.svg"
+  },
+  "resources/svg/ativo-02.svg": {
+    "file": "assets/ativo-02-DJz5K-lh.svg",
+    "src": "resources/svg/ativo-02.svg"
+  },
+  "resources/svg/ativo-03.svg": {
+    "file": "assets/ativo-03-DjmiIoY7.svg",
+    "src": "resources/svg/ativo-03.svg"
+  },
+  "resources/svg/ativo-04.svg": {
+    "file": "assets/ativo-04-CcCRYsuE.svg",
+    "src": "resources/svg/ativo-04.svg"
+  },
+  "resources/svg/close-black.svg": {
+    "file": "assets/close-black-CkVTGLzV.svg",
+    "src": "resources/svg/close-black.svg"
+  },
+  "resources/svg/close.svg": {
+    "file": "assets/close-QmRqSa6R.svg",
+    "src": "resources/svg/close.svg"
+  },
+  "resources/svg/instagram-outlined.svg": {
+    "file": "assets/instagram-outlined-rE1oLvov.svg",
+    "src": "resources/svg/instagram-outlined.svg"
+  },
+  "resources/svg/linha.svg": {
+    "file": "assets/linha-D-Bz9iNQ.svg",
+    "src": "resources/svg/linha.svg"
+  },
+  "resources/svg/linkedin-outlined.svg": {
+    "file": "assets/linkedin-outlined-jQLypEgC.svg",
+    "src": "resources/svg/linkedin-outlined.svg"
+  },
+  "resources/svg/mail-outlined.svg": {
+    "file": "assets/mail-outlined-DmwsW3NW.svg",
+    "src": "resources/svg/mail-outlined.svg"
+  },
+  "resources/svg/mail.svg": {
+    "file": "assets/mail-DQynfxe2.svg",
+    "src": "resources/svg/mail.svg"
+  },
+  "resources/svg/phone-outlined.svg": {
+    "file": "assets/phone-outlined--DgzeB7p.svg",
+    "src": "resources/svg/phone-outlined.svg"
+  },
+  "resources/svg/phone.svg": {
+    "file": "assets/phone-BWuQ3Pxu.svg",
+    "src": "resources/svg/phone.svg"
+  },
+  "resources/svg/whatsapp-outlined.svg": {
+    "file": "assets/whatsapp-outlined-DnlSymK2.svg",
+    "src": "resources/svg/whatsapp-outlined.svg"
+  },
+  "resources/svg/whatsapp.svg": {
+    "file": "assets/whatsapp-DQgpZXYp.svg",
+    "src": "resources/svg/whatsapp.svg"
+  }
+}
