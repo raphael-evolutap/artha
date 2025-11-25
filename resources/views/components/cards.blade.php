@@ -2,7 +2,7 @@
     $cards = [
         [
             'icon' => 'ativo-01',
-            'title' => 'Logistica para qualquer lugar do mundo',
+            'title' => 'Logística para qualquer lugar do mundo',
             'description' => 'Gerenciamento completo,
 desde o planejamento inicial de
 capacidade e a gestão de tarifas,
@@ -60,7 +60,7 @@ e mais economia para sua operação.
     }
 @endphp
 
-<section class="section-light py-20 md:py-32">
+<section id="o-jeito-artha-de-fazer" class="section-light py-20 md:py-32">
     <div class="container max-w-6xl px-6 md:px-12 lg:px-20">
         <div class="text-center mb-16">
             <h2 class="font-semibold text-3xl md:text-4xl mb-4">
@@ -71,7 +71,7 @@ e mais economia para sua operação.
         <div class="grid grid-cols-1 grid-rows-4 md:grid-cols-5 md:grid-rows-6 gap-6 lg:gap-8">
             @foreach ($cards as $card)
                 <div
-                    class="flip-card card-dark p-8 md:p-12 rounded-4xl hover:bg-[hsl(var(--dark-bg-secondary))] transition-all duration-300 group cursor-pointer w-full @php echo getCardClass($loop->index); @endphp">
+                    class="flip-card bg-[hsl(var(--dark-bg-secondary))] p-8 md:p-12 rounded-4xl  transition-all duration-300 group cursor-pointer w-full @php echo getCardClass($loop->index); @endphp">
                     <div class="flip-card-inner">
                         <div class="flip-card-front flex flex-col items-start justify-between mb-6 tracking-widest">
                             <div>
@@ -80,7 +80,7 @@ e mais economia para sua operação.
                             </div>
                             {{-- <ArrowRight
                                 class="w-6 h-6 text-white/40 group-hover:text-white transition-all group-hover:translate-x-1" /> --}}
-                            <h3 class="my-10 text-xl md:text-5xl font-normal md:leading-10 text-left">
+                            <h3 class="my-10 text-xl md:text-4xl tracking-wide font-light md:leading-10 text-left">
                                 {!! $card['title'] !!}
                             </h3>
                             <div class="flex w-full justify-between items-center flex-row">
@@ -96,10 +96,10 @@ e mais economia para sua operação.
                                 <img src="{{ Vite::asset('resources/svg/' . $card['icon'] . '.svg') }}" alt=""
                                     class="w-12 h-12" />
                             </div>
-                            <h3 class="my-6 text-xl md:text-4xl font-normal md:leading-10 text-left">
+                            <h3 class="my-6 text-xl md:text-3xl tracking-wide font-normal md:leading-10 text-left">
                                 {!! $card['title'] !!}
                             </h3>
-                            <p class="text-left text-base md:text-lg text-white/70 md:leading-8">
+                            <p class="text-left text-base md:text-lg text-white/70 md:leading-6">
                                 {{ $card['description'] }}
                             </p>
                         </div>

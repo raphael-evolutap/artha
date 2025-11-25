@@ -1,4 +1,4 @@
-<footer class="section-dark py-16 md:py-24">
+<footer id="atendimento" class="section-dark py-16 md:py-24">
     <div class="container max-w-6xl px-6 md:px-12 lg:px-20">
         <div class="grid md:grid-cols-2 gap-12 items-center mb-12">
 

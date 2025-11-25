@@ -16,9 +16,9 @@
                     <div class="md:flex flex-col uppercase text-white gap-y-2 font-light text-lg mt-20 hidden">
                         <a href="#about">Nosso Propósito</a>
                         <a href="#quem-somos">Quem Somos</a>
-                        <a href="#">O jeito Artha</a>
-                        <a href="#">Serviços</a>
-                        <a href="#">Atendimento</a>
+                        <a href="#o-jeito-artha-de-fazer">O jeito Artha</a>
+                        <a href="#servicos">Serviços</a>
+                        <a href="#atendimento">Atendimento</a>
                     </div>
                 </div>
             </div>

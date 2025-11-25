@@ -47,7 +47,7 @@ custos de transporte.',
     ];
 @endphp
 
-<section class="relative section-dark pb-20 md:pb-32">
+<section id="servicos" class="relative section-dark pb-20 md:pb-32">
     <div class="container max-w-6xl  top-[-42px] relative z-10 px-6 md:px-12 lg:px-20">
         <h2 class="text-4xl md:text-5xl text-black font-semibold mb-6">Serviços</h2>
     </div>
