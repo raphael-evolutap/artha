@@ -1,12 +1,12 @@
-<section id="quem-somos" class="section-dark py-20 md:py-32">
+<section id="quem-somos" class="section-dark py-20 md:pt-28 md:pb-20">
     <div class="container max-w-6xl px-6 md:px-12 lg:px-20">
         <div class="relative grid md:grid-cols-2 gap-12 lg:gap-20 items-center">
             <div class="space-y-6">
-                <h2 class="text-3xl md:text-5xl font-semibold mb-8">
+                <h2 class="text-xl md:text-4xl font-semibold mb-8 tracking-widest">
                     Quem somos
                 </h2>
 
-                <div class="text-xl font-medium md:text-xl text-white leading-6 tracking-widest">
+                <div class="text-xl font-normal md:text-xl text-white leading-6 tracking-widest">
                     <p class="font-bold mb-4">
                         Deixamos de lado a complexidade e as
                         planilhas para que você possa focar no

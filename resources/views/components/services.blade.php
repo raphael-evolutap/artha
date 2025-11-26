@@ -58,13 +58,13 @@ custos de transporte.',
     <div class="container max-w-6xl relative z-10 px-6 md:px-12 lg:px-20">
 
 
-        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-16">
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-20">
             @foreach ($services as $service)
                 <div class="">
 
                     <h3 class="text-3xl font-semibold mb-3 leading-tight">{{ $service['title'] }}</h3>
 
-                    <p class="text-2xl text-white font-medium leading-6">{{ $service['description'] }}</p>
+                    <p class="text-xl text-white font-normal leading-6">{{ $service['description'] }}</p>
 
                     <div class="mt-6 opacity-60">
                         <img src="{{ Vite::asset('resources/svg/linha.svg') }}" class="w-10 " alt="">
