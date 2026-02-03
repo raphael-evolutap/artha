@@ -35,20 +35,21 @@
                 </div>
 
                 <div class="flex gap-4 justify-center">
-                    <a href="#" class="" aria-label="Facebook">
+                    <a href="#" class="" aria-label="Linkedin">
                         <x-icon name="icon-linkedin-outlined" class="w-10 h-10 " />
                     </a>
-                    <a href="#" class="" aria-label="Facebook">
+                    <a href="#" class="" aria-label="Instagram">
                         <x-icon name="icon-instagram-outlined" class="w-10 h-10 " />
                     </a>
-                    <a href="#" class="" aria-label="Facebook">
+                    <a target="_blank" rel="noopener noreferrer" href="https://wa.me/+5511952993432" class=""
+                        aria-label="Whatsapp">
                         <x-icon name="icon-whatsapp-outlined" class="w-10 h-10 " />
                     </a>
-                    <a href="#" class="" aria-label="Facebook">
+                    <a href="tel:+551126296065" class="" aria-label="Telefone">
                         <x-icon name="icon-phone-outlined"
                             class="w-10 h-10 text-white/60 hover:text-primary transition-colors" />
                     </a>
-                    <a href="#" class="" aria-label="Facebook">
+                    <a href="mailto:atendimento@arthalog.com.br" class="" aria-label="Email">
                         <x-icon name="icon-mail-outlined"
                             class="w-10 h-10 text-white/60 hover:text-primary transition-colors" />
                     </a>
