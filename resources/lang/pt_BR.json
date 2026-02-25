@@ -71,5 +71,6 @@
     "contact.form.city_state": "Cidade/Estado",
     "contact.form.whatsapp": "WhatsApp",
     "contact.form.email": "Seu melhor email",
-    "contact.form.submit": "Solicitar atendimento personalizado"
+    "contact.form.submit": "Solicitar atendimento personalizado",
+    "contact.form.loading" : "Enviando..."
 }

@@ -71,5 +71,6 @@
     "contact.form.city_state": "City/State",
     "contact.form.whatsapp": "WhatsApp",
     "contact.form.email": "Your best email",
-    "contact.form.submit": "Request personalized support"
+    "contact.form.submit": "Request personalized support",
+    "contact.form.loading" : "Sending..."
 }

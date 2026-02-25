@@ -2,6 +2,8 @@
 
 namespace App\Livewire;
 
+use App\Mail\Contact;
+use Illuminate\Support\Facades\Mail;
 use Livewire\Component;
 
 class ContactForm extends Component
@@ -14,7 +16,7 @@ class ContactForm extends Component
 
     public $email;
 
-    public $telefone;
+    public $whatsapp;
 
     public $empresa;
 
@@ -29,8 +31,16 @@ class ContactForm extends Component
 
     public function submit()
     {
-        // send mail logic here
-        sleep(2);
+        Mail::to('raphael.botelho@evolutap.com.br')
+            ->send(new Contact([
+                'nome' => $this->nome ?? '',
+                'sobrenome' => $this->sobrenome ?? '',
+                'email' => $this->email ?? '',
+                'whatsapp' => $this->whatsapp ?? '',
+                'empresa' => $this->empresa ?? '',
+                'cidade_estado' => $this->cidade_estado ?? '',
+            ]));
+
         $this->mail_sent = true;
     }
 

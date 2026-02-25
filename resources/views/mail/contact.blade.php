@@ -1,12 +1,21 @@
 <x-mail::message>
-# Introduction
+# Email enviado pelo site
 
-The body of your message.
+**Nome**
+{{ $nome }}
 
-<x-mail::button :url="''">
-Button Text
-</x-mail::button>
+**Sobrenome**
+{{ $sobrenome }}
 
-Thanks,<br>
-{{ config('app.name') }}
+**Email**
+{{ $email }}
+
+**Whatsapp**
+{{ $whatsapp }}
+
+**Empresa**
+{{ $empresa }}
+
+**Cidade/Estado**
+{{ $cidade_estado }}
 </x-mail::message>

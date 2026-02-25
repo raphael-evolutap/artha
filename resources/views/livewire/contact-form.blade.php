@@ -70,7 +70,7 @@
                             <div class="mb-2">
                                 <label class="block text-base font-normal"
                                     for="nome">{{ __('contact.form.name') }}</label>
-                                <input wire:model="nome" class="block border-b border-black outline-none w-full" />
+                                <input required wire:model="nome" class="block border-b border-black outline-none w-full" />
                             </div>
                             <div class="mb-2">
                                 <label class="block text-base font-normal"
@@ -90,15 +90,20 @@
                             <div class="mb-2">
                                 <label class="block text-base font-normal"
                                     for="whatsapp">{{ __('contact.form.whatsapp') }}</label>
-                                <input wire:model="whatsapp" class="block border-b border-black outline-none w-full" />
+                                <input required wire:model="whatsapp"
+                                    class="block border-b border-black outline-none w-full" />
                             </div>
                             <div class="mb-2">
                                 <label class="block text-base font-normal"
                                     for="email">{{ __('contact.form.email') }}</label>
-                                <input wire:model="email" class="block border-b border-black outline-none w-full" />
+                                <input required wire:model="email"
+                                    class="block border-b border-black outline-none w-full" />
                             </div>
                             <button wire:loading.attr="disabled" type="submit"
-                                class="w-full text-xl font-semibold bg-black text-white py-4 px-5 rounded-full mt-4 cursor-pointer">{{ __('contact.form.submit') }}</button>
+                                class="w-full text-xl font-semibold bg-black text-white py-4 px-5 rounded-full mt-4 cursor-pointer">
+                                <span wire:loading.remove>{{ __('contact.form.submit') }}</span>
+                                <span wire:loading>{{ __('contact.form.loading') }}</span>
+                            </button>
                         </form>
                     </div>
                 </div>
