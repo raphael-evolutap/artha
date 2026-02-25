@@ -15,7 +15,7 @@
             <div class="flex flex-col md:flex-row justify-between gap-6">
                 <div>
                     <p class="text-white text-lg">
-                        Endereço
+                        {{ __('footer.address') }}
                     </p>
                     <p class="text-chinese-silver text-base">
                         Av. João XXIII, 350 - 7º Andar - Sala 77 - Socorro<br />
@@ -25,7 +25,7 @@
                 </div>
                 <div>
                     <p class="text-white text-lg">
-                        Atendimento
+                        {{ __('footer.attendance') }}
                     </p>
                     <p class="text-chinese-silver text-base">
                         +55 11 2629-6065 <br />
@@ -58,8 +58,6 @@
         </div>
     </div>
     <div class="container mt-12">
-        <p class="text-granite-gray text-sm text-right">© {{ date('Y') }} ARTHA LOG - Todos os direitos reservados.
-            Criado por
-            EstudioJOB©{{ date('Y') }}</p>
+        <p class="text-granite-gray text-sm text-right">{{ __('footer.copyright', ['year' => date('Y')]) }}</p>
     </div>
 </footer>

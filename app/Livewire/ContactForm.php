@@ -37,6 +37,6 @@ class ContactForm extends Component
     public function resetForm()
     {
         $this->mail_sent = false;
-        $this->reset();
+        $this->resetExcept('style');
     }
 }

@@ -2,51 +2,28 @@
     $features = [
         [
             'icon' => 'globe',
-            'title' => 'Comércio Global sem Fronteiras',
-            'description' => 'Navegue pelo complexo mundo do comércio
-internacional com total tranquilidade.
-Cuidamos de toda a burocracia e das
-exigências legais para que sua empresa esteja
-sempre em conformidade, garantindo que suas
-mercadorias cruzem fronteiras sem problemas.',
+            'title' => __('features.feature1.title'),
+            'description' => __('features.feature1.description'),
         ],
         [
             'icon' => 'brain',
-            'title' => 'Inteligência para o Negócio',
-            'description' => 'Trabalhe de forma mais inteligente, não mais
-difícil. Aplicamos as melhores soluções para
-acelerar seus processos e fornecer os insights
-que você precisa para tomar decisões
-otimizadas, impulsionando a eficiência de toda
-a sua equipe.
-',
+            'title' => __('features.feature2.title'),
+            'description' => __('features.feature2.description'),
         ],
         [
             'icon' => 'gauge',
-            'title' => 'Transporte com Máxima Desempenho',
-            'description' => 'Transforme seu transporte em um motor de
-lucratividade. Otimizamos suas rotas e operações
-para garantir o máximo de eficiência, reduzindo
-custos e aumentando o desempenho de cada
-entrega.',
+            'title' => __('features.feature3.title'),
+            'description' => __('features.feature3.description'),
         ],
         [
             'icon' => 'target',
-            'title' => 'Operações Portuárias Conectadas',
-            'description' => 'Garantimos que suas operações nos portos
-sejam fluidas e eficientes. Através de uma rede
-integrada, sua carga se move de forma rápida e
-sem gargalos, do navio até o destino final.',
+            'title' => __('features.feature4.title'),
+            'description' => __('features.feature4.description'),
         ],
         [
             'icon' => 'target',
-            'title' => 'Logística Guiada por Dados',
-            'description' => 'Usamos o poder da informação para ter uma
-cadeia logística mais eficiente. Com dados
-precisos e em tempo real, você antecipa
-problemas, otimiza rotas e toma decisões
-estratégicas que colocam sua empresa
-sempre um passo à frente.',
+            'title' => __('features.feature5.title'),
+            'description' => __('features.feature5.description'),
         ],
     ];
 @endphp

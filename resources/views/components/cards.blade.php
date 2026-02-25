@@ -2,46 +2,23 @@
     $cards = [
         [
             'icon' => 'ativo-01',
-            'title' => 'Logística para qualquer lugar do mundo',
-            'description' => 'Gerenciamento completo,
-desde o planejamento inicial de
-capacidade e a gestão de tarifas,
-passando pela reserva em navios
-e voos, até o transporte final.',
+            'title' => __('cards.card1.title'),
+            'description' => __('cards.card1.description'),
         ],
         [
             'icon' => 'ativo-02',
-            'title' => 'Inteligência
-e Automação<br/>
-do Início ao Fim',
-            'description' => 'Temos acesso direto a informações online
-sobre voos e navios para os principais portos
-e aeroportos do mundo. Isso economiza um
-tempo precioso da sua equipe e aumenta a
-precisão, garantindo que sua carga esteja
-sempre no lugar certo, na hora certa.',
+            'title' => __('cards.card2.title'),
+            'description' => __('cards.card2.description'),
         ],
         [
             'icon' => 'ativo-03',
-            'title' => 'Gestão de <br/>
-Contêineres Precisa <br />
-e Descomplicada',
-            'description' => 'Operações complexas de contêineres e terminais
-se tornam simples. Nosso sistema de gestão
-otimiza e automatiza cada etapa, desde a chegada
-no pátio até o embarque, garantindo total fluidez.',
+            'title' => __('cards.card3.title'),
+            'description' => __('cards.card3.description'),
         ],
         [
             'icon' => 'ativo-04',
-            'title' => 'Conexão Direta
-com os Portos',
-            'description' => 'Conexões diretas com as
-maiores transportadoras, agentes
-e autoridades nos portos mais
-movimentados do mundo. O
-resultado? Menos tempo de espera
-e mais economia na sua operação.
-',
+            'title' => __('cards.card4.title'),
+            'description' => __('cards.card4.description'),
         ],
     ];
     if (!function_exists('getCardClass')) {
@@ -64,7 +41,7 @@ e mais economia na sua operação.
     <div class="container max-w-6xl px-6 md:px-12 lg:px-20">
         <div class="text-center mb-16">
             <h2 class="font-semibold text-3xl md:text-4xl mb-4">
-                O jeito Artha de fazer
+                {{ __('cards.title') }}
             </h2>
         </div>
 

@@ -13,11 +13,23 @@
                         </a>
                     </div>
                     <div class="md:flex flex-col uppercase text-white gap-y-6 font-light text-lg mt-30 hidden">
-                        <a href="#about">Nosso Propósito</a>
-                        <a href="#quem-somos">Quem Somos</a>
-                        <a href="#o-jeito-artha-de-fazer">O jeito Artha</a>
-                        <a href="#servicos">Serviços</a>
-                        <a href="#atendimento">Atendimento</a>
+                        <div class="flex gap-4">
+                            <a href="{{ route('lang.switch', ['locale' => 'pt_BR']) }}"
+                                class="text-white hover:text-gray-300">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Flag_of_Brazil.svg"
+                                    alt="Portuguese" class="w-6 h-4" />
+                            </a>
+                            <a href="{{ route('lang.switch', ['locale' => 'en']) }}"
+                                class="text-white hover:text-gray-300">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_the_United_States.svg"
+                                    alt="English" class="w-6 h-4" />
+                            </a>
+                        </div>
+                        <a href="#about">{{ __('header.nav.proposito') }}</a>
+                        <a href="#quem-somos">{{ __('header.nav.quem_somos') }}</a>
+                        <a href="#o-jeito-artha-de-fazer">{{ __('header.nav.jeito_artha') }}</a>
+                        <a href="#servicos">{{ __('header.nav.servicos') }}</a>
+                        <a href="#atendimento">{{ __('header.nav.atendimento') }}</a>
                     </div>
                 </div>
             </div>
@@ -32,22 +44,15 @@
                             <span class="font-normal relative text-stone-300">
                                 <img class="w-14 h-14 absolute right-0 -top-10 hidden lg:block"
                                     src="{{ Vite::asset('resources/images/ativo-21.svg') }}" alt="">
-                                Simplificamos
-                                <br />
-                                a logística global
+                                {!! __('header.title_line1') !!}
                             </span>
                             <br />
-                            para quem quer
-                            <br />
-                            crescer de verdade.
+                            {!! __('header.title_line2') !!}
                         </h1>
                     </div>
 
                     <p class="text-white/80 text-sm md:text-2xl   max-w-3/4 mb-12 leading-7">
-                        Sua cadeia de suprimentos nas mãos de<br />
-                        especialistas comprometidos em encontrar a <br />
-                        solução mais inteligente e eficiente para sua <br />
-                        carga, seja qual for o seu volume de operações.
+                        {!! __('header.description') !!}
                     </p>
                     <div>
                         <img class="w-12" src="{{ Vite::asset('resources/svg/linha.svg') }}" alt="">
