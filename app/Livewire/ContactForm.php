@@ -31,7 +31,7 @@ class ContactForm extends Component
 
     public function submit()
     {
-        Mail::to('raphael.botelho@evolutap.com.br')
+        Mail::to('contato@arthalog.com.br')
             ->send(new Contact([
                 'nome' => $this->nome ?? '',
                 'sobrenome' => $this->sobrenome ?? '',
