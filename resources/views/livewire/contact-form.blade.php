@@ -10,8 +10,8 @@
     </flux:modal.trigger>
     @once
         <flux:modal @close="resetForm" :closable="false" name="atendimento" @class([
-            '[&::backdrop]:bg-white/70!  max-w-6xl!',
-            'w-4xl' => !$mail_sent,
+            '[&::backdrop]:bg-white/70! max-w-6xl!',
+            'w-full md:w-4xl p-4 ' => !$mail_sent,
         ])>
             @if ($mail_sent)
                 <div class="p-12 text-center ">
@@ -34,8 +34,8 @@
                     </flux:modal.close>
                 </div>
             @else
-                <div class="flex flex-row p-12">
-                    <div class="flex-1 ">
+                <div class="p-12 columns-1 md:columns-2 gap-4 space-y-4">
+                    <div class="flex-1">
                         <div>
                             <h2 class="text-5xl tracking-widest leading-10 font-normal mb-4">{{ __('contact.modal.title') }}
                             </h2>
@@ -56,7 +56,7 @@
                                         class="w-10 h-10">
                                     <p>atendimento@arthalog.com.br</p>
                                 </div>
-                                <a href="#"
+                                <a target="_blank" rel="noopener noreferrer" href="https://wa.me/+551126296065"
                                     class="max-w-4/5 flex items-center gap-2 py-2.5 px-3 bg-chinese-silver rounded-full">
                                     <img src="{{ Vite::asset('resources/svg/whatsapp.svg') }}" alt=""
                                         class="w-6 h-6">

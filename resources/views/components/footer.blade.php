@@ -29,16 +29,16 @@
                     </p>
                     <p class="text-chinese-silver text-base">
                         +55 11 2629-6065 <br />
-                        atendimento@arthalog.com.br <br />
+                        <a href="mailto:atendimento@arthalog.com.br">atendimento@arthalog.com.br</a> <br />
                         09:00 as 18:00, seg a sex.
                     </p>
                 </div>
 
                 <div class="flex gap-4 justify-center">
-                    <a href="#" class="" aria-label="Linkedin">
+                    <a href="https://www.linkedin.com/company/artha-log/" class="" aria-label="Linkedin">
                         <x-icon name="icon-linkedin-outlined" class="w-10 h-10 " />
                     </a>
-                    <a href="#" class="" aria-label="Instagram">
+                    <a href="https://www.instagram.com/artha.log/" class="" aria-label="Instagram">
                         <x-icon name="icon-instagram-outlined" class="w-10 h-10 " />
                     </a>
                     <a target="_blank" rel="noopener noreferrer" href="https://wa.me/+5511952993432" class=""
